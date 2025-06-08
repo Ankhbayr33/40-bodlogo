@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Result {
-     public static String organizingContainers(List<List<Integer>> container) {
+    public static String organizingContainers(List<List<Integer>> container) {
     // Write your code here
 int n = container.size();
     int[] containerSums = new int[n];
